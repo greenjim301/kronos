@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="kronos.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="k_util\k_errno.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_event.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_handler.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_mutex.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_sockaddr.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_socket.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_string.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_thread_task.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="k_util\k_util.cpp">
+      <Filter>k_util</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\jsoncpp.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="k_mobile_handler.cpp" />
+    <ClCompile Include="k_rtsp_handler.cpp" />
+    <ClCompile Include="k_media_server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="k_util\k_errno.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_event.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_handler.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_mutex.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_sockaddr.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_socket.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_string.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_thread_task.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="k_util\k_util.h">
+      <Filter>k_util</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\json.h">
+      <Filter>jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\json-forwards.h">
+      <Filter>jsoncpp\json</Filter>
+    </ClInclude>
+    <ClInclude Include="k_mobile_handler.h" />
+    <ClInclude Include="k_accept_handler.h" />
+    <ClInclude Include="k_rtsp_handler.h" />
+    <ClInclude Include="k_media_server.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="k_util">
+      <UniqueIdentifier>{4aee706e-0f12-4037-b8ff-b0f51a33a379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{317f9be2-341a-4934-ad31-367fb68ac90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp\json">
+      <UniqueIdentifier>{9d390bad-c667-4472-a000-2a590c4a3cae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
